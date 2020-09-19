@@ -1,0 +1,49 @@
+header{
+    width:1440px;
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    color: white;
+    background-color: darkslategray;
+}
+
+footer{
+    width:1440px;
+    grid-area: f;
+    background-image: url(chess_vector.jpg);
+    margin:0px;
+}
+main{
+    grid-area: m;
+    background-image: url(chess_background.png);
+    margin:16px;
+    background-repeat: no-repeat
+}
+#but{
+    background-color: black;
+    color: white;
+}
+#hed{
+    color: white;
+}
+body {
+    margin: 0px;
+    display: grid;
+    grid:
+        "h h h " 48px
+        "m a ." auto
+        "f f f" auto;
+        min-height: 100vh;
+}
+#p{
+    grid-area:a;
+    padding:32px;
+}
+#foot{
+
+    grid-area: f;
+    margin-top:32px;
+    
+}
