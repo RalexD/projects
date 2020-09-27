@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  display: grid;
+  grid:
+      "h h h " 48px
+      "m a ." auto
+      "f f f" auto;
+      min-height: 100vh;}
+main{
+  grid-area: a;
+  border: 2px solid black;
+  height: fit-content;
+  width: fit-content;
+  padding: 16px;
+  
+}      
+#sm_header{
+  text-align: center;
+  padding:8px;
+}
+.line{
+  width:148px;
+  height: 4px;
+}
+.buttons{
+  display: flex;
+  margin: 8px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
