@@ -9,23 +9,29 @@ body {
 main{
   grid-area: a;
   border: 2px solid black;
-  height: fit-content;
-  width: fit-content;
+  height: 507px;
+  width: 487px;
   padding: 16px;
+  box-sizing: border-box;
   
 }      
 #sm_header{
   text-align: center;
   padding:8px;
 }
-.line{
-  width:148px;
-  height: 4px;
-}
+
 .buttons{
   display: flex;
   margin: 8px;
   justify-content: space-between;
   align-items: center;
-  
+}
+.inputs{
+  border: none;
+  border-bottom:solid red 1px;
+  font-family: 'Roboto', sans-serif;
+}
+.gold{
+  color: gold;
+
 }
