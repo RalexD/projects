@@ -1,0 +1,24 @@
+{
+  "name": "my_projects",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug": "node node_modules/pug/lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RalexD/projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RalexD/projects/issues"
+  },
+  "homepage": "https://github.com/RalexD/projects#readme"
+}
